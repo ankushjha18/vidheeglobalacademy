@@ -27,7 +27,7 @@ export function HeroSection() {
   ]
   
   return (
-    <section className="relative bg-background min-h-screen flex items-center py-32">
+    <section className="relative bg-background  flex items-center py-32">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="grid lg:grid-cols-2 gap-20 items-center max-w-7xl mx-auto">
           
