@@ -8,7 +8,7 @@ import { motion } from "framer-motion"
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen">
+    <main className="">
       <Navbar />
 
       {/* About Hero Section */}

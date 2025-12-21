@@ -41,7 +41,7 @@ export default function AdmissionsWebinarsPage() {
   ]
 
   return (
-    <div className="min-h-screen pt-32 pb-20">
+    <div className=" pt-32 pb-20">
       <section className="container mx-auto px-4 mb-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

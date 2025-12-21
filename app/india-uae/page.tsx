@@ -31,7 +31,7 @@ export default function IndiaUaePage() {
   ]
 
   return (
-    <main className="min-h-screen">
+    <main className="">
       <Navbar />
 
       {/* Hero Section */}
