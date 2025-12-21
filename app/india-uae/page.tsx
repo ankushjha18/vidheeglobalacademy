@@ -1,7 +1,7 @@
 "use client"
 
 import { Navbar } from "@/components/navbar"
-import { IndiaUaePathway } from "@/components/india-uae-pathway"
+import { IndiaUaePathwaysSection } from "@/components/india-uae-pathway"
 import { Footer } from "@/components/footer"
 import { motion } from "framer-motion"
 import { Flag, Building2, Users2, TrendingUp } from "lucide-react"
@@ -78,7 +78,7 @@ export default function IndiaUaePage() {
         </div>
       </section>
 
-      <IndiaUaePathway />
+      <IndiaUaePathwaysSection />
 
       {/* Why Choose UAE Section */}
       <section className="py-20 bg-gradient-to-br from-primary/5 to-accent/5">
