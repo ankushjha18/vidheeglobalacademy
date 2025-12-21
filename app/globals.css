@@ -2,6 +2,10 @@
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
+html, body {
+  overflow-x: hidden;
+}
+
 
 :root {
   --background: oklch(0.99 0.005 105);
