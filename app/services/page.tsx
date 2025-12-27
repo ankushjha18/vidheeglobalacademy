@@ -10,6 +10,7 @@ import { Testimonials } from "@/components/testimonials"
 import HowWeGuide from "./howweguideyou"
 import HolisticLearning from "./hostile"
 import FAQSection from "./faqsection"
+import { IndiaUaePathwaysSection } from "@/components/india-uae-pathway"
 
 
 export default function ServicesPage() {
@@ -58,7 +59,7 @@ export default function ServicesPage() {
       <ServicesHero />
 
       {/* Services Hero */}
-      <section className="pt-12 pb-20 bg-gradient-to-br from-primary/5 via-background to-accent/5">
+      <section className="pt-12 pb-20 bg-gradient-to-br from-primary/5 via-background to-accent/5" id="Programs">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -110,6 +111,7 @@ export default function ServicesPage() {
       </section>
 
       <ProgramsServicesSection />
+      <IndiaUaePathwaysSection />
       <HowWeGuide />
       <HolisticLearning />
       <UniversitiesSection />

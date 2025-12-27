@@ -21,11 +21,10 @@ export function Navbar() {
   }, [])
 
   const services = [
-    { title: "Career Counseling", href: "/services#career" },
-    { title: "Study Abroad Guidance", href: "/services#study-abroad" },
-    { title: "Professional Training", href: "/services#training" },
-    { title: "University Placement", href: "/services#placement" },
-    { title: "Visa Assistance", href: "/services#visa" },
+    { title: "Our Services", href: "/services" },
+    { title: "Programs", href: "/services#Programs" },
+    { title: "Learning Experience", href: "/services#LearningExperience" },
+    { title: "FAQ", href: "/services#Faq  " },
   ]
 
   const careerObjectives = [

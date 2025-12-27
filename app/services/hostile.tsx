@@ -51,7 +51,7 @@ export default function HolisticLearning() {
   ];
 
   return (
-    <section className="py-20 lg:py-32 bg-muted/30">
+    <section className="py-20 lg:py-32 bg-muted/30" id="LearningExperience">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="max-w-3xl mb-16">

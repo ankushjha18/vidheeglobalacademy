@@ -7,26 +7,32 @@ export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   const faqs = [
-    {
-      question: "Who can enroll in Vidhee Global Academy programs?",
-      answer: "Our programs are designed for students, educators, and working professionals seeking academic growth, skill development, and global career opportunities."
-    },
-    {
-      question: "How are the programs delivered?",
-      answer: "We follow a blended learning approach that includes self-paced online modules, live group classes, and expert-led interactive sessions."
-    },
-    {
-      question: "Who conducts the live classes?",
-      answer: "Live classes are led by experienced educators and international faculty members with strong academic and industry expertise."
-    },
-    {
-      question: "Do I receive personalized guidance or mentorship?",
-      answer: "Yes, learners receive personalized mentorship and continuous feedback to support academic progress and career development."
-    },
-    {
-      question: "Will I receive a certificate after completion?",
-      answer: "Yes, a certificate is awarded upon successful program completion, subject to participation and assessment requirements."
-    }
+  {
+    question: "Who can enroll in Vidhee Global Academy programs?",
+    answer:
+      "Vidhee Global Academy programs are open to students, educators, and working professionals seeking academic excellence, skill development, and global career opportunities."
+  },
+  {
+    question: "How are the programs delivered?",
+    answer:
+      "Our programs follow a blended learning model that combines self-paced online modules, interactive live group sessions, and expert-led classes for flexible and effective learning."
+  },
+  {
+    question: "Who conducts the live classes?",
+    answer:
+      "Live classes are conducted by experienced educators and international faculty members with strong academic credentials and real-world industry experience."
+  },
+  {
+    question: "Do learners receive personalized guidance or mentorship?",
+    answer:
+      "Yes, each learner receives personalized mentorship, regular feedback, and academic or career guidance throughout the program."
+  },
+  {
+    question: "Will learners receive a certificate after program completion?",
+    answer:
+      "Yes, learners are awarded a certificate upon successful completion of the program, subject to participation and assessment requirements."
+  }
+
   ];
 
   const toggleFAQ = (index: number) => {

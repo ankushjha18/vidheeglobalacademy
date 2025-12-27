@@ -1,10 +1,10 @@
 "use client"
 
-import { Navbar } from "@/components/navbar"
 import { IndiaUaePathwaysSection } from "@/components/india-uae-pathway"
-import { Footer } from "@/components/footer"
 import { motion } from "framer-motion"
 import { Flag, Building2, Users2, TrendingUp } from "lucide-react"
+import FAQSection from "./faqsection"
+import PathwayProcess from "./processindiauae"
 
 export default function IndiaUaePage() {
   const highlights = [
@@ -32,7 +32,9 @@ export default function IndiaUaePage() {
 
   return (
     <main className="">
-      <Navbar />
+
+       <IndiaUaePathwaysSection />
+       <PathwayProcess />
 
       {/* Hero Section */}
       <section className="pt-32 pb-20 bg-gradient-to-br from-accent/10 via-background to-primary/5">
@@ -78,7 +80,7 @@ export default function IndiaUaePage() {
         </div>
       </section>
 
-      <IndiaUaePathwaysSection />
+     
 
       {/* Why Choose UAE Section */}
       <section className="py-20 bg-gradient-to-br from-primary/5 to-accent/5">
@@ -118,9 +120,10 @@ export default function IndiaUaePage() {
             </div>
           </motion.div>
         </div>
+
+        <FAQSection />
       </section>
 
-      <Footer />
     </main>
   )
 }

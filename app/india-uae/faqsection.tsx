@@ -8,24 +8,24 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "Who can enroll in Vidhee Global Academy programs?",
-      answer: "Our programs are designed for students, educators, and working professionals seeking academic growth, skill development, and global career opportunities."
+      question: "What is the India–UAE education pathway?",
+      answer: "The India–UAE pathway enables students and professionals to pursue education, training, or career opportunities in the UAE while building globally recognized academic and professional credentials."
     },
     {
-      question: "How are the programs delivered?",
-      answer: "We follow a blended learning approach that includes self-paced online modules, live group classes, and expert-led interactive sessions."
+      question: "Who can benefit from the India–UAE pathway?",
+      answer: "This pathway is ideal for school students, college students, graduates, educators, and working professionals seeking international exposure, career advancement, or global learning opportunities."
     },
     {
-      question: "Who conducts the live classes?",
-      answer: "Live classes are led by experienced educators and international faculty members with strong academic and industry expertise."
+      question: "Do you provide guidance for UAE admissions and institutions?",
+      answer: "Yes, we offer end-to-end guidance including program selection, institution shortlisting, application support, and documentation assistance aligned with UAE education standards."
     },
     {
-      question: "Do I receive personalized guidance or mentorship?",
-      answer: "Yes, learners receive personalized mentorship and continuous feedback to support academic progress and career development."
+      question: "Is this pathway suitable for working professionals?",
+      answer: "Absolutely. Our flexible learning model and career-focused guidance allow working professionals to upskill, transition roles, or explore UAE-based opportunities alongside their current commitments."
     },
     {
-      question: "Will I receive a certificate after completion?",
-      answer: "Yes, a certificate is awarded upon successful program completion, subject to participation and assessment requirements."
+      question: "Do you assist with visa and transition support?",
+      answer: "Yes, we provide structured guidance for visa processes, documentation, and academic or professional transition requirements to ensure a smooth India–UAE journey."
     }
   ];
 
