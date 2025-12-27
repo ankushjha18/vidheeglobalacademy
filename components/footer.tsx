@@ -89,7 +89,7 @@ function Footer() {
         </div>
 
         <div className="border-t border-background/20 pt-8 text-center">
-          <p className="text-sm text-background/80">© 2025 ViDHEE Global Academy. All rights reserved.</p>
+          <p className="text-sm text-background/80">© 2025 ViDHEE Global Academy. All rights reserved. Developed by <a href="https://www.digitrixsolutions.in/">digitrixsolutions.in</a></p>
           <div className="mt-4 flex flex-wrap justify-center gap-4 text-sm">
             <a href="/privacy-policy" className="hover:text-accent transition-colors">
               Privacy Policy
