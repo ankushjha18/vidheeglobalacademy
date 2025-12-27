@@ -30,9 +30,7 @@ export function Navbar() {
   const careerObjectives = [
     { title: "Start Teaching", href: "/resources/start-teaching", icon: "✦" },
     { title: "Teach Abroad", href: "/resources/teach-abroad", icon: "🌍" },
-    { title: "Get Promotions", href: "/resources/get-promotions", icon: "📈" },
     { title: "Professional Development", href: "/resources/professional-development", icon: "💡" },
-    { title: "Find High-Paying Jobs", href: "/resources/high-paying-jobs", icon: "💰" },
   ]
 
  /* const resourceTypes = [
