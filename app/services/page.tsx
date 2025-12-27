@@ -1,11 +1,16 @@
 "use client"
 
-import { Navbar } from "@/components/navbar"
-import { ServicesSection } from "@/components/services-section"
+
 import { UniversitiesSection } from "@/components/universities-section"
-import { Footer } from "@/components/footer"
 import { motion } from "framer-motion"
 import { GraduationCap, Globe, Users, FileCheck, Briefcase, Plane } from "lucide-react"
+import { ProgramsServicesSection } from "@/components/programe"
+import ServicesHero from "./serviceshero"
+import { Testimonials } from "@/components/testimonials"
+import HowWeGuide from "./howweguideyou"
+import HolisticLearning from "./hostile"
+import FAQSection from "./faqsection"
+
 
 export default function ServicesPage() {
   const serviceDetails = [
@@ -48,11 +53,12 @@ export default function ServicesPage() {
   ]
 
   return (
-    <main className="min-h-screen">
-      <Navbar />
+    <main className="">
+
+      <ServicesHero />
 
       {/* Services Hero */}
-      <section className="pt-32 pb-20 bg-gradient-to-br from-primary/5 via-background to-accent/5">
+      <section className="pt-12 pb-20 bg-gradient-to-br from-primary/5 via-background to-accent/5">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -103,9 +109,12 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <ServicesSection />
+      <ProgramsServicesSection />
+      <HowWeGuide />
+      <HolisticLearning />
       <UniversitiesSection />
-      <Footer />
+      <Testimonials />
+      <FAQSection />
     </main>
   )
 }
