@@ -50,7 +50,7 @@ export  function Navbar() {
               <img
                 src="/vidheelogo.png"
                 alt="ViDHEE Global Academy"
-                className="h-12 w-auto"
+                className="h-25 w-auto"
               />
             </a>
 
