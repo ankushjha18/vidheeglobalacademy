@@ -155,15 +155,15 @@ export default function TeachingApproachPage() {
           {/* Bottom Stats Bar */}
           <div className="mt-16 grid grid-cols-3 gap-8 bg-gradient-to-r from-orange-400/90 to-orange-500/90 backdrop-blur-sm rounded-2xl p-8">
             <div>
-              <div className="text-4xl font-bold text-white mb-2">6409</div>
+              <div className="text-2xl font-bold text-white mb-2">6409</div>
               <div className="text-white/90 font-medium">Success Stories</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-white mb-2">124</div>
+              <div className="text-2xl font-bold text-white mb-2">124</div>
               <div className="text-white/90 font-medium">Expert Instructors</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-white mb-2">54,749</div>
+              <div className="text-2xl font-bold text-white mb-2">54,749</div>
               <div className="text-white/90 font-medium">Hours Tutored</div>
             </div>
           </div>
