@@ -1,15 +1,18 @@
 "use client"
 
-import { Navbar } from "@/components/navbar"
-import { CorePillars } from "@/components/core-pillars"
+import { WhatWeDoSection } from "@/components/whatdowedo"
 import { ProcessSection } from "@/components/process-section"
-import { Footer } from "@/components/footer"
 import { motion } from "framer-motion"
+import AboutHero from "./abouthero"
+import { WhoWeHelpSection } from "@/components/whowehelp"
+import { WhyVidhee } from "@/components/why-vidhee"
+import { Testimonials } from "@/components/testimonials"
 
 export default function AboutPage() {
   return (
     <main className="">
-      <Navbar />
+
+      <AboutHero/>
 
       {/* About Hero Section */}
       <section className="pt-32 pb-20 bg-gradient-to-br from-primary/5 via-background to-accent/5">
@@ -53,29 +56,15 @@ export default function AboutPage() {
           </motion.div>
         </div>
       </section>
-
-      <CorePillars />
+      <WhoWeHelpSection />
       <ProcessSection />
+      <WhatWeDoSection />
+      <WhyVidhee />
+      <Testimonials />
 
-      {/* Experience Section */}
-      <section className="py-20 bg-gradient-to-br from-primary/5 to-accent/5">
-        <div className="container mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="max-w-4xl mx-auto text-center"
-          >
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">Years of Experience in Education</h2>
-            <p className="text-xl text-muted-foreground leading-relaxed">
-              With years of experience in education, training, and international exposure, our team brings deep
-              expertise and practical insights to help you navigate your educational journey with confidence.
-            </p>
-          </motion.div>
-        </div>
-      </section>
+      
 
-      <Footer />
+     
     </main>
   )
 }
