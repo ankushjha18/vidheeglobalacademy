@@ -137,10 +137,10 @@ export function TrustStripSection() {
                     }}
                     transition={{ duration: 0.3 }}
                   >
-                    {item.text.split(' ').map((word, wordIndex) => (
+                    {item.text.split(/\s+/).map((word, wordIndex) => (
                       <motion.span
                         key={wordIndex}
-                        className="inline-block"
+                        className="inline-block mr-1"
                         animate={{
                           y: hoveredTrust === i ? [0, -2, 0] : 0,
                         }}
@@ -152,7 +152,7 @@ export function TrustStripSection() {
                         }}
                       >
                         {word}
-                        {wordIndex < item.text.split(' ').length - 1 && ' '}
+                        {wordIndex < item.text.split(/\s+/).length - 1 && ' '}
                       </motion.span>
                     ))}
                   </motion.p>
