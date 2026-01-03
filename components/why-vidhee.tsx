@@ -9,17 +9,17 @@ export function WhyVidhee() {
     {
       icon: Shield,
       title: "Trusted Guidance",
-      description: "Years of experience in education consulting with proven track record",
+      description: "Experienced subject experts and career counsellors providing reliable academic and career guidance for students and educators.",
     },
     {
       icon: Globe,
       title: "Global Exposure",
-      description: "Connect with opportunities across India and UAE seamlessly",
+      description: "Academic excellence combined with international exposure, connecting learners to opportunities across India and the UAE.",
     },
     {
       icon: UserCheck,
       title: "Personalized Mentoring",
-      description: "One-on-one guidance tailored to your unique goals and aspirations",
+      description: "Personalised tuition and one-to-one mentoring tailored to individual goals, learning styles, and aspirations.",
     },
   ]
 
