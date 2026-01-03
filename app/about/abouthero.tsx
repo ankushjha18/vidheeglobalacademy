@@ -45,33 +45,33 @@ export default function AboutHero() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto">
           {/* MIND Card */}
           <div className="bg-gray-900/90 backdrop-blur-sm p-6 sm:p-8 text-center border-t-4 border-blue-500 hover:bg-gray-900 transition-colors">
-            <h3 className="text-white text-lg sm:text-xl font-bold mb-3 sm:mb-4 tracking-wider">MIND</h3>
+            <h3 className="text-white text-lg sm:text-xl font-bold mb-3 sm:mb-4 tracking-wider">PERSONALISED LEARNING</h3>
             <p className="text-gray-300 text-xs sm:text-sm leading-relaxed">
-              Academic excellence that encourages critical thinking and innovation.
+              One-on-one and small group coaching designed around each learner’s goals, strengths, and learning style.
             </p>
           </div>
 
           {/* BODY Card */}
           <div className="bg-gray-900/90 backdrop-blur-sm p-6 sm:p-8 text-center border-t-4 border-green-500 hover:bg-gray-900 transition-colors">
-            <h3 className="text-white text-lg sm:text-xl font-bold mb-3 sm:mb-4 tracking-wider">BODY</h3>
+            <h3 className="text-white text-lg sm:text-xl font-bold mb-3 sm:mb-4 tracking-wider">ACADEMIC EXCELLENCE</h3>
             <p className="text-gray-300 text-xs sm:text-sm leading-relaxed">
-              Healthy habits that promote strength, discipline, and teamwork.
+              Strong subject expertise and concept clarity across Grades 9–12, Science, Commerce, English, and IELTS.
             </p>
           </div>
 
           {/* SPIRIT Card */}
           <div className="bg-gray-900/90 backdrop-blur-sm p-6 sm:p-8 text-center border-t-4 border-purple-500 hover:bg-gray-900 transition-colors">
-            <h3 className="text-white text-lg sm:text-xl font-bold mb-3 sm:mb-4 tracking-wider">SPIRIT</h3>
+            <h3 className="text-white text-lg sm:text-xl font-bold mb-3 sm:mb-4 tracking-wider">CAREER GUIDANCE</h3>
             <p className="text-gray-300 text-xs sm:text-sm leading-relaxed">
-              Confidence and purpose for balanced personal growth.
+              Expert counselling for subject selection, university pathways in India and abroad, and long-term career planning.
             </p>
           </div>
 
           {/* CHARACTER Card */}
           <div className="bg-gray-900/90 backdrop-blur-sm p-6 sm:p-8 text-center border-t-4 border-red-500 hover:bg-gray-900 transition-colors">
-            <h3 className="text-white text-lg sm:text-xl font-bold mb-3 sm:mb-4 tracking-wider">CHARACTER</h3>
+            <h3 className="text-white text-lg sm:text-xl font-bold mb-3 sm:mb-4 tracking-wider">GLOBAL OPPORTUNITIES</h3>
             <p className="text-gray-300 text-xs sm:text-sm leading-relaxed">
-              Values and integrity that shape responsible global citizens.
+             Bridging students and educators to international education and teaching opportunities worldwide.
             </p>
           </div>
         </div>

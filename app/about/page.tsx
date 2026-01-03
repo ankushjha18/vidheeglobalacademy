@@ -27,8 +27,9 @@ export default function AboutPage() {
               About ViDHEE Global Academy
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Dedicated to guiding students, educators, and professionals through education choices, career transitions,
-              and global opportunities, with a strong focus on India–UAE pathways.
+             ViDHEE Global Academy is a learner-centric academic and career guidance platform
+              committed to empowering students and educators through personalised education, expert
+              mentoring, and global opportunities.
             </p>
           </motion.div>
 
@@ -41,16 +42,14 @@ export default function AboutPage() {
             <div className="bg-card p-8 rounded-2xl shadow-lg border border-border/50 hover:shadow-xl transition-all">
               <h3 className="text-2xl font-bold text-primary mb-4">Our Mission</h3>
               <p className="text-muted-foreground leading-relaxed">
-                To offer trusted guidance, personalised mentoring, and future-ready solutions that empower individuals
-                to make informed decisions about their education and career paths.
+                To empower students and educators through personalised mentoring, ethical guidance, and expert career counselling that enables informed academic and professional choices.
               </p>
             </div>
 
             <div className="bg-card p-8 rounded-2xl shadow-lg border border-border/50 hover:shadow-xl transition-all">
               <h3 className="text-2xl font-bold text-primary mb-4">Our Vision</h3>
               <p className="text-muted-foreground leading-relaxed">
-                To become the most trusted partner for students and professionals seeking global education and career
-                opportunities, particularly in strengthening India-UAE educational pathways.
+                To become a globally trusted education partner that connects students and educators to meaningful academic pathways, international opportunities, and long-term career success.
               </p>
             </div>
           </motion.div>

@@ -11,25 +11,25 @@ export function WhoWeHelpSection() {
     {
       icon: GraduationCap,
       title: "Students",
-      description: "Clarity on education choices, career direction, and future opportunities.",
+      description: "Personalised academic guidance and career clarity to help students make confident education and future pathway decisions.",
       color: "blue"
     },
     {
       icon: Users,
       title: "Educators",
-      description: "Professional development, global exposure, and career advancement guidance.",
+      description: "Professional development, global exposure, and expert guidance to support career growth and international teaching opportunities.",
       color: "purple"
     },
     {
       icon: Briefcase,
       title: "Working Professionals",
-      description: "Career transitions, skill alignment, and international readiness.",
+      description: "Career transition support, skill alignment, and strategic guidance for professionals seeking global career advancement.",
       color: "pink"
     },
     {
       icon: Building2,
       title: "Institutions",
-      description: "Academic support, training solutions, and international collaboration guidance.",
+      description: "Academic support, educator recruitment assistance, and guidance for institutions building international collaborations.",
       color: "orange"
     }
   ]
