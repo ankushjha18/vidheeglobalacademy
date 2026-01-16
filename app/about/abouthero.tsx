@@ -23,13 +23,13 @@ export default function AboutHero() {
           {/* Small Header */}
           <div className="mb-4">
             <p className="text-white/90 text-xs sm:text-sm tracking-[0.2em] font-light">
-              Vidhee Global Academy
+              ViDHEE Global Academy
             </p>
           </div>
 
           {/* Main Heading */}
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-serif font-light text-white mb-6 sm:mb-8 leading-tight px-4">
-            Education Beyond Borders
+           Opening Doors to Global Learning
           </h1>
 
           {/* CTA Button */}

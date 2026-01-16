@@ -56,7 +56,7 @@ export function WhatWeDoSection() {
             </motion.div>
             
             <h2 className="text-4xl lg:text-5xl font-semibold text-foreground tracking-tight mb-4">
-              What We Do
+              What <span className="text-blue-900">We Do</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Comprehensive guidance for your education and career journey

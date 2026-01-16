@@ -10,14 +10,14 @@ export function HeroSection() {
   
   const cards = [
     { 
-      title: "Education Guidance", 
-      subtitle: "Strategic academic planning",
-      image: "https://media.istockphoto.com/id/1175911679/photo/leadership-concept-with-paper-airplanes.jpg?s=612x612&w=0&k=20&c=2RySVG82WQF8oi2AIpEnbJEnpfpOW0pwVNaAT1bSH9U="
-    },
-    { 
       title: "Career Growth", 
       subtitle: "Professional development pathways",
       image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"
+    },
+    { 
+      title: "Education Guidance", 
+      subtitle: "Strategic academic planning",
+      image: "https://media.istockphoto.com/id/1175911679/photo/leadership-concept-with-paper-airplanes.jpg?s=612x612&w=0&k=20&c=2RySVG82WQF8oi2AIpEnbJEnpfpOW0pwVNaAT1bSH9U="
     },
     { 
       title: "India–UAE Bridge", 
@@ -45,7 +45,7 @@ export function HeroSection() {
 
             {/* 2. Main Headline */}
             <h1 className="text-5xl lg:text-6xl xl:text-7xl font-semibold leading-[1.1] text-foreground tracking-tight">
-              Guiding education and careers beyond borders
+              Empowering Students and Educators for Global Success
             </h1>
 
             {/* 3. Supporting Line */}

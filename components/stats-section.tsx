@@ -41,8 +41,9 @@ export  function StatsSection() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
-            Our Impact in Numbers
+            Our Impact in <span className="text-blue-900">Numbers</span>
           </h2>
+
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Empowering thousands of students to achieve their global education dreams
           </p>

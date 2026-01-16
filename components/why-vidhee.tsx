@@ -33,7 +33,7 @@ export function WhyVidhee() {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-5xl font-bold mb-4 text-balance">Why Choose ViDHEE?</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-4 text-balance">Why Choose <span className="text-blue-900">ViDHEE?</span></h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
             We bring together expertise, dedication, and a global network to guide you toward success
           </p>
