@@ -56,6 +56,7 @@ export function HeroSection() {
             {/* 4. CTA Buttons */}
             <div className="flex flex-wrap gap-4 pt-4">
               {/* Primary Button - Magnetic + Ripple Effect */}
+              <a href="/contact">
               <motion.div
                 className="relative"
                 whileHover={{ scale: 1.02 }}
@@ -79,6 +80,7 @@ export function HeroSection() {
                   />
                   
                   {/* Shine effect on hover */}
+                 
                   <motion.div
                     className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent skew-x-12"
                     initial={{ x: "-100%" }}
@@ -116,101 +118,19 @@ export function HeroSection() {
                     ))}
                   </motion.div>
                   
+                  
                   <span className="relative z-10 flex items-center gap-2">
-                    Get Started
+                    Book Consultancy
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-2 group-hover:scale-110 transition-all duration-300" />
                   </span>
                 </Button>
+                
               </motion.div>
+              </a>
+
               
-              {/* Secondary Button - Border Animation + Glow */}
-              <motion.div
-                className="relative"
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-              >
-                <Button 
-                  size="lg" 
-                  variant="outline"
-                  className="relative border-2 border-border hover:border-primary text-foreground px-8 h-14 text-base font-medium rounded-lg transition-all group overflow-hidden backdrop-blur-sm"
-                >
-                  {/* Rotating border gradient */}
-                  <motion.div
-                    className="absolute inset-0 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                    style={{
-                      background: "conic-gradient(from 0deg, transparent, var(--primary), transparent)",
-                      padding: "2px",
-                      WebkitMask: "linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)",
-                      WebkitMaskComposite: "xor",
-                      maskComposite: "exclude",
-                    }}
-                    animate={{
-                      rotate: [0, 360],
-                    }}
-                    transition={{
-                      duration: 3,
-                      repeat: Infinity,
-                      ease: "linear"
-                    }}
-                  />
-                  
-                  {/* Inner glow effect */}
-                  <motion.div
-                    className="absolute inset-0 bg-gradient-radial from-primary/20 via-transparent to-transparent rounded-lg"
-                    initial={{ scale: 0, opacity: 0 }}
-                    whileHover={{ scale: 1.5, opacity: 1 }}
-                    transition={{ duration: 0.4 }}
-                  />
-                  
-                  {/* Morphing background shapes */}
-                  <motion.div
-                    className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity"
-                    initial="rest"
-                    whileHover="hover"
-                  >
-                    {[...Array(3)].map((_, i) => (
-                      <motion.div
-                        key={i}
-                        className="absolute w-20 h-20 bg-accent/10 rounded-full blur-xl"
-                        style={{
-                          left: `${i * 30}%`,
-                          top: "50%",
-                        }}
-                        variants={{
-                          rest: { scale: 0, y: 0 },
-                          hover: {
-                            scale: [0, 1.5, 0],
-                            y: [0, -10, 0],
-                            transition: {
-                              duration: 2,
-                              delay: i * 0.2,
-                              repeat: Infinity,
-                            }
-                          }
-                        }}
-                      />
-                    ))}
-                  </motion.div>
-                  
-                  <span className="relative z-10 group-hover:text-primary transition-colors duration-300">
-                    Learn More
-                  </span>
-                  
-                  {/* Corner accents */}
-                  <motion.div
-                    className="absolute top-0 left-0 w-3 h-3 border-t-2 border-l-2 border-primary rounded-tl-lg opacity-0 group-hover:opacity-100"
-                    initial={{ scale: 0 }}
-                    whileHover={{ scale: 1 }}
-                    transition={{ duration: 0.3 }}
-                  />
-                  <motion.div
-                    className="absolute bottom-0 right-0 w-3 h-3 border-b-2 border-r-2 border-primary rounded-br-lg opacity-0 group-hover:opacity-100"
-                    initial={{ scale: 0 }}
-                    whileHover={{ scale: 1 }}
-                    transition={{ duration: 0.3, delay: 0.1 }}
-                  />
-                </Button>
-              </motion.div>
+              
+              
             </div>
           </motion.div>
 

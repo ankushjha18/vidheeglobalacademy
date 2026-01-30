@@ -33,10 +33,12 @@ export default function AboutHero() {
           </h1>
 
           {/* CTA Button */}
+          <a href="/contact">
           <button className="group relative inline-flex items-center gap-3 px-6 sm:px-10 py-3 sm:py-4 bg-red-700 text-white text-sm sm:text-base font-semibold tracking-wide hover:bg-red-800 transition-all duration-300 hover:scale-105 shadow-xl">
             <span>LEARN MORE</span>
             <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform duration-300" />
           </button>
+          </a>
         </div>
       </div>
 

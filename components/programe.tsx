@@ -301,6 +301,7 @@ export function ProgramsServicesSection() {
           </div>
           
           {/* Bottom CTA */}
+          <a href="/services">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -318,6 +319,7 @@ export function ProgramsServicesSection() {
               </Button>
             </motion.div>
           </motion.div>
+          </a>
         </div>
       </div>
     </section>
