@@ -196,9 +196,12 @@ export function ContactSection() {
                     disabled={isSubmitting}
                   >
                     <option value="">Interested In</option>
-                    <option value="Student - Study Abroad">Student - Study Abroad</option>
-                    <option value="Educator - UAE Career">Educator - UAE Career</option>
-                    <option value="Professional - Career Transition">Professional - Career Transition</option>
+                    <option value=" Physics Coaching"> Physics Coaching</option>
+                    <option value="Mathematics coaching">Mathematics coaching</option>
+                    <option value="Chemistry coaching">Chemistry coaching </option>
+                    <option value="Biology coaching">Biology Coaching </option>
+                    <option value="Career Guidance and Counselling">Career Guidance and Counselling </option>
+                    <option value="Professional Global Careers">Professional Global Careers</option>
                   </select>
                   <Textarea 
                     name="message"
